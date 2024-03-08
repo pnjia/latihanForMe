@@ -1,5 +1,28 @@
-p,
-details,
-summary {
-  text-align: center;
+.bar {
+  background-color: darkslateblue;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+}
+.bar ul li {
+  display: inline;
+  padding: 10px;
+  border-right: 1px solid white;
+}
+.bar ul {
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 20px;
+}
+.bar ul li a {
+  text-decoration: none;
+}
+.bar ul li a:link {
+  color: floralwhite;
+}
+.bar ul li a:visited {
+  color: black;
 }
