@@ -1,28 +1,104 @@
-.bar {
-  background-color: darkslateblue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background-color: #25b79f;
+  height: 100vh;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* Navbar */
+.navbar {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100%;
-  height: 40px;
+  background-color: black;
 }
-.bar ul li {
-  display: inline;
+.menu {
+  display: flex;
   padding: 10px;
-  border-right: 1px solid white;
+  position: absolute;
+  right: 30px;
+  margin-top: 10px;
 }
-.bar ul {
-  margin: 10px;
-  padding: 0;
-  list-style-type: none;
-  font-size: 20px;
+.menu li {
+  list-style: none;
+  padding: 5px;
+  font-size: 15px;
 }
-.bar ul li a {
+.menu a {
   text-decoration: none;
+  color: #f0f0e6;
+  padding: 5px;
 }
-.bar ul li a:link {
-  color: floralwhite;
+.menu a:hover {
+  border-bottom: 2px solid #f0f0e6;
 }
-.bar ul li a:visited {
-  color: black;
+/* home */
+.home .nama {
+  position: absolute;
+  color: #07374a;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.home .nama h1 {
+  font-size: 2.2rem;
+  margin: 5px;
+}
+.home .nama p {
+  font-size: 0.95rem;
+  font-family: "roboto slab";
+  color: #f0f0e6;
+}
+/* about */
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color: #07374a;
+}
+.penjelasan {
+  padding: 100px 0;
+}
+.penjelasan h1 {
+  color: #25b79f;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.penjelasan img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.penjelasan p {
+  color: #f0f0e6;
+  text-align: center;
+  font-size: 0.95rem;
+  font-family: "roboto slab";
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
