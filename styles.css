@@ -30,7 +30,6 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: black;
 }
 .menu {
   display: flex;
@@ -38,6 +37,7 @@ body {
   position: absolute;
   right: 30px;
   margin-top: 10px;
+  width: auto;
 }
 .menu li {
   list-style: none;
@@ -78,7 +78,7 @@ body {
   background-color: #07374a;
 }
 .penjelasan {
-  padding: 100px 0;
+  padding: 50px;
 }
 .penjelasan h1 {
   color: #25b79f;
